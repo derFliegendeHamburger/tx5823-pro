@@ -14,6 +14,7 @@ Use rotary encoder to select desired frequency,
 then use single click to set the transmitter to this frequency, or
 use double click to abort frequency change.
 
+![v10d](https://user-images.githubusercontent.com/16653051/126883214-411c316f-831a-4191-81ad-c4ae75440815.jpg)
 
 ## License & Recognition
 #### Recognition
