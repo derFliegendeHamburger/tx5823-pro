@@ -5,14 +5,14 @@ The tx5823spiTransmitter is derived from tx5823-pro sheaivey's transmitter proje
 Frequency selection is done via rotary encoder and allows for tuning of frequency with a stepsize of 1 MHz, in the range of [5505 ; 5995] MHz. Frequency is shown on OLED in large font (not much else to display anyways)
 
 ## Hardware
-In my case, the transmitter module with the RTC6705 was taken from an TS5823 which is nice because the module comes already converted to SPI mode.
+The transmitter module with the RTC6705 was taken from an TS5823 which is nice because the module comes already converted to SPI mode.
 Display is SSD1306 128x64 OLED and mcu is atmega328p with arduino bootloader (because those were available).
-Connections as usual or as outlined the the main cpp file.
+Connections as usual or as outlined in the main cpp file.
 
 ## Usage:
-Use rotary encoder to select desired frequency,
-then use single click to set the transmitter to this frequency, or
-use double click to abort frequency change.
+* Use rotary encoder to select desired frequency,
+* then use single click to set the transmitter to this frequency, or
+* use double click to abort frequency change.
 
 ![v10d](v10d.jpg)
 
